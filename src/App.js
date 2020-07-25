@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import './App.css';
 // import data from './data.json';
+import Card from '../src/components/Card';
 
 
 class App extends React.Component {
@@ -38,21 +39,7 @@ class App extends React.Component {
             {console.log(this.state.data)}
             {this.state.data.results.map((character) => (
               <li key={character.id}>
-                <div className="card">
-                  <img
-                    src={character.image}
-                    className="card-img-top"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">{character.name}</h5>
-                    <p className="card-text">
-                      Status: {character.status} <br />
-                      Species: {character.species} <br />
-                      Gender: {character.gender}
-                    </p>
-                  </div>
-                </div>
+                <Card character={character}/>
               </li>
             ))}
           </ul>
