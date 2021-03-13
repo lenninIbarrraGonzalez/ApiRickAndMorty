@@ -31,6 +31,8 @@ _Luego ejecuta npm start_
 
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](https://wikis.fdi.ucm.es/ELP/Licencia_MIT) para detalles
 
+![alt text](https://github.com/lenninIbarrraGonzalez/ApiRickAndMorty/blob/master/imagen.png)
+
 
 
 
